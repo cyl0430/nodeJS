@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ejs</title>
+</head>
+<body>
+    <div class="m_form">
+        <!--action="./list.ejs" 成功提交后要跳转的页面-->
+        <!--method 请求方式-->
+        <!--每个需要提交的数据必须添加 name 值,否则获取不到数据-->
+        <form action="/list.ejs" method="post">
+            <div class="name">
+                <input type="text" name="username">
+            </div>
+            <div class="pwd">
+                <input type="password" name="pwd">
+            </div>
+            <button type="submit">提交</button>
+        </form>
+    </div>
+</body>
+</html>

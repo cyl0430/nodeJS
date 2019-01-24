@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <div>我是首页home</div>
+   <div class="m_list">
+       <ul>
+           <% for(var i = 0; i < list.length; i++){ %>
+           <li>
+               用户名 : <%= list[i].username %>
+           </li>
+           <% } %>
+       </ul>
+   </div>
+</body>
+</html>

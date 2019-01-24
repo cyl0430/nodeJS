@@ -1,0 +1,16 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+.g_text_c{
+    text-align: center;
+}
+.g_mb_20{
+    margin-bottom: 20px;
+}
+.g_mt_20{
+    margin-top: 20px;
+}

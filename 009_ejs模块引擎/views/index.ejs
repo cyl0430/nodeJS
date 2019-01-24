@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ejs</title>
+</head>
+<body>
+    <div class="title">这是一个ejs模板 -- index.ejs</div>
+    <!--渲染后台的数据-->
+    <!--直接输出-->
+    <div class="after">
+        <%= msg %>
+    </div>
+    <!--渲染列表-->
+    <div class="m_list">
+        <ul>
+            <% for(var i = 0; i < list.length; i++){ %>
+            <li>
+                <%= list[i] %>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+    <!--ejs解析html-->
+    <div class="m_ejs">
+        <%- html %>
+    </div>
+</body>
+</html>
